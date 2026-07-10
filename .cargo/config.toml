@@ -1,0 +1,4 @@
+# Fuerza a raylib-sys (CMake) a usar el generador de tu Visual Studio 2022 instalado,
+# en vez del "Visual Studio 18 2026" que el cmake crate detecta por error.
+[env]
+CMAKE_GENERATOR = "Visual Studio 17 2022"
